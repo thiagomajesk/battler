@@ -1,0 +1,22 @@
+<div class="flex h-screen flex-col overflow-hidden">
+  <section class="bg-gray-950 p-2">
+    <.container>
+      <.header_panel state={@state} />
+    </.container>
+  </section>
+  <section class="bg-[url('/images/battle-bg.jpg')] grow bg-cover px-2 py-4">
+    <.container class="flex flex-col justify-between gap-4 h-full">
+      <.party_grid id="enemies-party-grid" actors={@enemies} state={@state} />
+      <.promp_panel state={@state} />
+      <.party_grid id="allies-party-grid" actors={@allies} state={@state} />
+    </.container>
+  </section>
+  <section class="bg-gray-950 p-2">
+    <.container data-auto-animate>
+      <.footer_panel
+        :if={@state.active_actor && @state.active_actor.party == :allies}
+        state={@state}
+      />
+    </.container>
+  </section>
+</div>

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
+    "iconify-icon": "^2.1.0",
+    "normalize-object": "^2.0.6"
+  },
+  "devDependencies": {
+    "tailwindcss-animated": "^1.0.1"
+  }
+}
