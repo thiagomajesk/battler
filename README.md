@@ -1,6 +1,7 @@
 # Battler
 
-An experimental CTB battler implementation using Elixir.
+An experimental CTB battler implementation using Elixir. Read the post: [How I created a JRPG battler with Elixir](https://thiagomajesk.github.io/posts/2024-04-27-how-i-created-a-jrpg-battler-with-elixir/).
+
 
 ![](battler-demo.gif)
 
