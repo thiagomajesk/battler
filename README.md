@@ -2,6 +2,11 @@
 
 A experimental CTB battler implementation using Elixir.
 
+![](battler-demo.gif)
+
+
+## Running the project
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
